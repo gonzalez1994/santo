@@ -1,0 +1,62 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+main{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.container .row{
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    background-image: url(https://db-api.elestimulo.com/app/uploads/2015/04/%C3%BAltima-cena-cl%C3%ADmax-1100x572.jpg);
+    background-repeat: no-repeat;
+}
+.container .row .col-100{
+    margin: 0 auto;
+    margin-top: 30px;
+    justify-content: center;
+}
+.container .row .col-100 h2{
+    justify-content: center;
+    text-align: center;
+    color: red;
+    font-family cursive;
+}
+.container .row .col-100 input{
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(240, 255, 241);
+    color: black;
+    font-family: cursive;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.container .row .col-100 h4{
+    justify-content: center;
+    text-align: center;
+    color: red;
+    font-family: cursive;
+}
+.container .row .col-100 button{
+    justify-content: center;
+    text-align: center;
+    background-color: red(42, 157, 165);
+    font-family: cursive;
+    color: blueviolet;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.container .row .col-100 button:hover{
+    background-color: black;
+    color: blueviolet(42, 157, 165);
+}
